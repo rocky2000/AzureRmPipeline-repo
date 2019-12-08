@@ -19,7 +19,7 @@ steps:
     resourceGroupName: 'devopsrp'
     location: 'East US'
     templateLocation: 'Linked artifact'
-    csmFile: 'CreateAzureStorage/azuredeploy.json'
+    csmFile: 'createazurestorage/azuredeploy.json'
     deploymentMode: 'Incremental'
 
 - script: |
